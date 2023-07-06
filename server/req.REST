@@ -1,0 +1,26 @@
+POST http://localhost:3000/api/v1/item
+Content-Type: application/json
+
+{
+    "item":"Have some sleep"
+}
+
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/api/v1/item
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/api/v1/item/64a5cde8a46049b43ede018a
+Content-Type: application/json
+
+{
+    "item":"Eat some food"
+}
+
+###
+DELETE  http://localhost:3000/api/v1/item/64a5cde8a46049b43ede018a
+Content-Type: application/json
+
